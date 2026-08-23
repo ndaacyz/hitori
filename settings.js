@@ -13,21 +13,21 @@ const __filename = fileURLToPath(import.meta.url);
 
 //───────────────< GLOBAL SETTINGS >───────────────\\
 
-global.owner = ["6282113821188"]; // ['628','628'] 2 owner atau lebih
-global.author = "Nazedev";
-global.botname = "Hitori Bot";
-global.packname = "Bot WhatsApp";
+global.owner = ["6285640575421"]; // ['628','628'] 2 owner atau lebih
+global.author = "Ndaa";
+global.botname = "NdaaBotz";
+global.packname = "NdaaBotz WhatsApp";
 global.timezone = "Asia/Jakarta"; // Ganti pakai command .settimezone
 global.locale = "en"; // Ganti pakai command .setlocale
 global.listprefix = ["+", "!", "."];
 global.defaultAdminKey = crypto.randomBytes(32).toString("hex");
 
 global.pairing_code = true;
-global.number_bot = ""; // Kalo pake panel bisa masukin nomer di sini, jika belum ambil session. Format : '628xx'
+global.number_bot = "6285640575421"; // Kalo pake panel bisa masukin nomer di sini, jika belum ambil session. Format : '628xx'
 
 global.dns_use = "custom"; // custom / default
 global.database = {
-	path: "nazedev", // url mongodb / mysql / postgres / folder name local session 'nazedev'
+	path: "ndaabtz", // url mongodb / mysql / postgres / folder name local session 'nazedev'
 	options: {
 		store: true, // jika true ikut path yang diatas. jika false, otomatis local. jika { path: 'url_or_name.json' } menjadi terpisah
 		database: true, // jika true ikut path yang diatas. jika false, otomatis local. jika { path: 'url_or_name.json' } menjadi terpisah
