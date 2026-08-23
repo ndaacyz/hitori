@@ -22,7 +22,7 @@ global.locale = "en"; // Ganti pakai command .setlocale
 global.listprefix = ["+", "!", "."];
 global.defaultAdminKey = crypto.randomBytes(32).toString("hex");
 
-global.pairing_code = true;
+global.pairing_code = false;
 global.number_bot = "6285640575421"; // Kalo pake panel bisa masukin nomer di sini, jika belum ambil session. Format : '628xx'
 
 global.dns_use = "custom"; // custom / default
